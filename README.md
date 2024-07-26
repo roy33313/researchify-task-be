@@ -1,4 +1,3 @@
-
 # Researchify BE
 
 ## Overview
@@ -37,11 +36,9 @@ To get started with the Todo Application, follow the setup instructions in below
 
 - npm install
 - npm run dev
+
 Run these commands to start up the app in dev mode.
 
 ### Contributing
 
 Contributions are welcome! If you would like to contribute to the project, please fork the repository and submit a pull request with your changes. For bug reports or feature requests, open an issue on GitHub.
-
-
-
