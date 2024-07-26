@@ -1,5 +1,4 @@
-import dotenv from "dotenv";
-
+import dotenv from 'dotenv';
 dotenv.config();
 
 export const EXPRESS_PORT_NO = process.env.EXPRESS_PORT_NO || 8080;

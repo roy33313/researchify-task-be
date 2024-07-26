@@ -1,4 +1,4 @@
-import User from "../models/User.model.js";
+import User from '../models/User.model.js';
 
 const findUserByUsername = async (username) => {
   const result = await User.findOne({ username });
@@ -10,4 +10,9 @@ const createUser = async (username, password) => {
   return result;
 };
 
-export { findUserByUsername, createUser };
+const getUserByUsername = async (username) => {
+  const result = User.findOne({ username });
+  return result;
+};
+
+export { findUserByUsername, createUser, getUserByUsername };
